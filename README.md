@@ -126,7 +126,7 @@ if __name__ == '__main__':
 运行：
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_finetune/log_MAE_Finetune.txt   # Linear Evaluation
+CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_finetune/log_MAE_Finetune.txt   # Finetune
 ```
 
 3. 对于`Bootstrapped MAE`**Finetune**，设置`main_eval.py`参数及主函数如下：
@@ -143,7 +143,7 @@ if __name__ == '__main__':
 运行：
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_finetune/log_MAE_n_Finetune.txt  # Linear Evaluation
+CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_finetune/log_MAE_n_Finetune.txt  # Finetune
 ```
 
 #### 文件清单
