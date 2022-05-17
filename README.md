@@ -27,6 +27,8 @@ conda activate SurRF
 
    所有的参数均在 `main_mae(eval).py` 文件下的`default_args()` 中，需要手动调整，沿用了`Github`源代码，没有封装成`argpars`命令行的形式
 
+5. 任务目前采用单`GPU`训练的方式，由于数据集比较小，没有改成多核训练的方式，但可以通过`CUDA_VISIBLE_DEVICES`命令在多个`GPU`上运行不同的任务
+
 #### MAE/Bootstrapped MAE 预训练
 
 1. 进入根目录下
@@ -73,7 +75,7 @@ CUDA_VISIBLE_DEVICES=0 python main_mae.py | tee -a log_pretraining/log_MAE_n.txt
 #### MAE/Bootstrapped MAE  Linear Evaluation
 
 1. 进入根目录下
-2. 对于`MAE` **Linear Evaluation**，设置`main_eval.py`主函数参数如下：
+2. 对于`MAE` **Linear Evaluation**，设置`main_eval.py`参数及主函数如下：
 
 `args.n_partial = 0`
 
@@ -90,7 +92,7 @@ if __name__ == '__main__':
 CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_linear/log_MAE_Linear.txt   # Linear Evaluation
 ```
 
-3. 对于`Bootstrapped MAE` **Linear Evaluation**，设置`main_eval.py`主函数如下：
+3. 对于`Bootstrapped MAE` **Linear Evaluation**，设置`main_eval.py`参数及主函数如下：
 
 `args.n_partial = 0`
 
@@ -110,26 +112,9 @@ CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_linear/log_MAE_n_Linear.
 #### MAE/Bootstrapped MAE Finetune
 
 1. 进入根目录下
-2. 对于`MAE` **Finetune**，设置`main_eval.py`主函数如下：
+2. 对于`MAE` **Finetune**，设置`main_eval.py`参数及主函数如下：
 
-`args.n_partial = 0`
-
-```python
-if __name__ == '__main__':
-    data_name = 'cifar10'
-    trail = 'MAE'
-    train(default_args(data_name,trail=trail,ckpt_file='MAE.ckpt'))
-```
-
-运行：
-
-```bash
-CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_linear/log_MAE_Linear.txt   # Linear Evaluation
-```
-
-3. 对于`Bootstrapped MAE`**Finetune**，设置`main_eval.py`主函数如下：
-
-`args.n_partial = 0`
+`args.n_partial = 1`
 
 ```python
 if __name__ == '__main__':
@@ -141,7 +126,24 @@ if __name__ == '__main__':
 运行：
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_linear/log_MAE_Linear.txt   # Linear Evaluation
+CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_finetune/log_MAE_Finetune.txt   # Linear Evaluation
+```
+
+3. 对于`Bootstrapped MAE`**Finetune**，设置`main_eval.py`参数及主函数如下：
+
+`args.n_partial = 1`
+
+```python
+if __name__ == '__main__':
+    data_name = 'cifar10'
+    trail = 'MAE-n'
+    train(default_args(data_name,trail=trail,ckpt_file='MAE-n.ckpt'))
+```
+
+运行：
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_finetune/log_MAE_n_Finetune.txt  # Linear Evaluation
 ```
 
 #### 文件清单
@@ -150,7 +152,7 @@ CUDA_VISIBLE_DEVICES=0 python main_eval.py | tee -a log_linear/log_MAE_Linear.tx
 ...
 + ckpt              # checkpoint
 + data              # data folder
-+ log               # log files
++ log               # log files of tensor board(the original log file)
 + log_pretraining   # log pretraining 
 + log_linear        # log linear evaluation
 + log_finetune      # log whole network finetuning
@@ -166,4 +168,25 @@ deit.py             # definition of DeiT
 
 
 #### 可视化结果
+
+1. 可视化`pretrain`阶段结果：
+
+```bash
+cd log_pretraining
+python plot_pretraining.py
+```
+
+2. 可视化`linear evaluation`结果
+
+```bash
+cd log_linear
+python plot_linear_evaluation.py
+```
+
+3. 可视化`finetune`结果
+
+```bash
+cd log_finetune
+python plot_finetune.py
+```
 
