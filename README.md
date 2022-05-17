@@ -1,4 +1,4 @@
-# Bootstrapped MAE (MAE-K) Pytorch实现
+<center><h1>Bootstrapped MAE (MAE-K) Pytorch实现</h1></center>
 
 #### 代码修改自：https://github.com/liujiyuan13/MAE-code
 
@@ -189,4 +189,3 @@ python plot_linear_evaluation.py
 cd log_finetune
 python plot_finetune.py
 ```
-
