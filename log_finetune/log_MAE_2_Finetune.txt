@@ -1,0 +1,246 @@
+Files already downloaded and verified
+Files already downloaded and verified
+data loading completed!
+model building completed!
+optimizer building completed!
+begin whole network finetuning...
+- acc_eval_partial 1,epoch  10,accuracy 0.4944
+- epoch  10, time, 11.06s, loss 1.6020
+- acc_eval_partial 1,epoch  20,accuracy 0.4935
+- epoch  20, time, 10.98s, loss 1.5997
+- acc_eval_partial 1,epoch  30,accuracy 0.5401
+- epoch  30, time, 11.93s, loss 1.4831
+- acc_eval_partial 1,epoch  40,accuracy 0.5664
+- epoch  40, time, 11.28s, loss 1.4057
+- acc_eval_partial 1,epoch  50,accuracy 0.5582
+- epoch  50, time, 11.22s, loss 1.4385
+- acc_eval_partial 1,epoch  60,accuracy 0.6044
+- epoch  60, time, 11.22s, loss 1.3336
+- acc_eval_partial 1,epoch  70,accuracy 0.5866
+- epoch  70, time, 11.20s, loss 1.3770
+- acc_eval_partial 1,epoch  80,accuracy 0.6025
+- epoch  80, time, 11.07s, loss 1.3333
+- acc_eval_partial 1,epoch  90,accuracy 0.6235
+- epoch  90, time, 11.05s, loss 1.2786
+- acc_eval_partial 1,epoch 100,accuracy 0.5991
+- epoch 100, time, 11.00s, loss 1.3360
+- acc_eval_partial 1,epoch 110,accuracy 0.6365
+- epoch 110, time, 18.53s, loss 1.2291
+- acc_eval_partial 1,epoch 120,accuracy 0.6321
+- epoch 120, time, 27.00s, loss 1.2855
+- acc_eval_partial 1,epoch 130,accuracy 0.6387
+- epoch 130, time, 27.16s, loss 1.2539
+- acc_eval_partial 1,epoch 140,accuracy 0.6462
+- epoch 140, time, 26.96s, loss 1.2029
+- acc_eval_partial 1,epoch 150,accuracy 0.6264
+- epoch 150, time, 26.85s, loss 1.2675
+- acc_eval_partial 1,epoch 160,accuracy 0.6684
+- epoch 160, time, 26.90s, loss 1.1609
+- acc_eval_partial 1,epoch 170,accuracy 0.6377
+- epoch 170, time, 26.92s, loss 1.2316
+- acc_eval_partial 1,epoch 180,accuracy 0.6594
+- epoch 180, time, 26.92s, loss 1.1889
+- acc_eval_partial 1,epoch 190,accuracy 0.6595
+- epoch 190, time, 27.08s, loss 1.1526
+- acc_eval_partial 1,epoch 200,accuracy 0.6468
+- epoch 200, time, 26.93s, loss 1.2195
+- acc_eval_partial 1,epoch 210,accuracy 0.6819
+- epoch 210, time, 27.12s, loss 1.1157
+- acc_eval_partial 1,epoch 220,accuracy 0.6535
+- epoch 220, time, 28.16s, loss 1.1913
+- acc_eval_partial 1,epoch 230,accuracy 0.6720
+- epoch 230, time, 27.62s, loss 1.1357
+- acc_eval_partial 1,epoch 240,accuracy 0.6765
+- epoch 240, time, 27.47s, loss 1.1171
+- acc_eval_partial 1,epoch 250,accuracy 0.6690
+- epoch 250, time, 27.50s, loss 1.1767
+- acc_eval_partial 1,epoch 260,accuracy 0.6986
+- epoch 260, time, 27.56s, loss 1.0731
+- acc_eval_partial 1,epoch 270,accuracy 0.6431
+- epoch 270, time, 27.70s, loss 1.1559
+- acc_eval_partial 1,epoch 280,accuracy 0.6848
+- epoch 280, time, 27.56s, loss 1.0962
+- acc_eval_partial 1,epoch 290,accuracy 0.6902
+- epoch 290, time, 27.61s, loss 1.0892
+- acc_eval_partial 1,epoch 300,accuracy 0.6721
+- epoch 300, time, 27.66s, loss 1.1363
+- acc_eval_partial 1,epoch 310,accuracy 0.7007
+- epoch 310, time, 27.89s, loss 1.0428
+- acc_eval_partial 1,epoch 320,accuracy 0.6714
+- epoch 320, time, 26.91s, loss 1.1299
+- acc_eval_partial 1,epoch 330,accuracy 0.7032
+- epoch 330, time, 26.75s, loss 1.0612
+- acc_eval_partial 1,epoch 340,accuracy 0.6886
+- epoch 340, time, 27.18s, loss 1.0703
+- acc_eval_partial 1,epoch 350,accuracy 0.6794
+- epoch 350, time, 27.34s, loss 1.1077
+- acc_eval_partial 1,epoch 360,accuracy 0.7005
+- epoch 360, time, 27.01s, loss 1.0125
+- acc_eval_partial 1,epoch 370,accuracy 0.6813
+- epoch 370, time, 27.58s, loss 1.1108
+- acc_eval_partial 1,epoch 380,accuracy 0.7044
+- epoch 380, time, 27.75s, loss 1.0278
+- acc_eval_partial 1,epoch 390,accuracy 0.6916
+- epoch 390, time, 27.46s, loss 1.0465
+- acc_eval_partial 1,epoch 400,accuracy 0.6885
+- epoch 400, time, 27.54s, loss 1.0772
+- acc_eval_partial 1,epoch 410,accuracy 0.7121
+- epoch 410, time, 27.63s, loss 0.9898
+- acc_eval_partial 1,epoch 420,accuracy 0.6776
+- epoch 420, time, 27.28s, loss 1.0892
+- acc_eval_partial 1,epoch 430,accuracy 0.7092
+- epoch 430, time, 27.75s, loss 0.9999
+- acc_eval_partial 1,epoch 440,accuracy 0.6912
+- epoch 440, time, 27.66s, loss 1.0382
+- acc_eval_partial 1,epoch 450,accuracy 0.6939
+- epoch 450, time, 27.61s, loss 1.0503
+- acc_eval_partial 1,epoch 460,accuracy 0.7091
+- epoch 460, time, 27.52s, loss 0.9674
+- acc_eval_partial 1,epoch 470,accuracy 0.6944
+- epoch 470, time, 27.34s, loss 1.0793
+- acc_eval_partial 1,epoch 480,accuracy 0.7124
+- epoch 480, time, 27.64s, loss 0.9818
+- acc_eval_partial 1,epoch 490,accuracy 0.6992
+- epoch 490, time, 27.64s, loss 1.0194
+- acc_eval_partial 1,epoch 500,accuracy 0.6933
+- epoch 500, time, 27.60s, loss 1.0301
+- acc_eval_partial 1,epoch 510,accuracy 0.7175
+- epoch 510, time, 27.63s, loss 0.9576
+- acc_eval_partial 1,epoch 520,accuracy 0.6954
+- epoch 520, time, 27.92s, loss 1.0504
+- acc_eval_partial 1,epoch 530,accuracy 0.7133
+- epoch 530, time, 27.60s, loss 0.9600
+- acc_eval_partial 1,epoch 540,accuracy 0.7003
+- epoch 540, time, 27.84s, loss 1.0172
+- acc_eval_partial 1,epoch 550,accuracy 0.7012
+- epoch 550, time, 27.59s, loss 1.0094
+- acc_eval_partial 1,epoch 560,accuracy 0.7136
+- epoch 560, time, 27.71s, loss 0.9476
+- acc_eval_partial 1,epoch 570,accuracy 0.6959
+- epoch 570, time, 27.78s, loss 1.0413
+- acc_eval_partial 1,epoch 580,accuracy 0.7229
+- epoch 580, time, 27.68s, loss 0.9381
+- acc_eval_partial 1,epoch 590,accuracy 0.6993
+- epoch 590, time, 27.71s, loss 1.0134
+- acc_eval_partial 1,epoch 600,accuracy 0.7121
+- epoch 600, time, 27.54s, loss 0.9961
+- acc_eval_partial 1,epoch 610,accuracy 0.7226
+- epoch 610, time, 27.64s, loss 0.9381
+- acc_eval_partial 1,epoch 620,accuracy 0.6974
+- epoch 620, time, 27.47s, loss 1.0348
+- acc_eval_partial 1,epoch 630,accuracy 0.7214
+- epoch 630, time, 27.41s, loss 0.9244
+- acc_eval_partial 1,epoch 640,accuracy 0.7056
+- epoch 640, time, 27.28s, loss 1.0055
+- acc_eval_partial 1,epoch 650,accuracy 0.7170
+- epoch 650, time, 27.26s, loss 0.9774
+- acc_eval_partial 1,epoch 660,accuracy 0.7229
+- epoch 660, time, 27.29s, loss 0.9331
+- acc_eval_partial 1,epoch 670,accuracy 0.6923
+- epoch 670, time, 27.91s, loss 1.0134
+- acc_eval_partial 1,epoch 680,accuracy 0.7277
+- epoch 680, time, 27.70s, loss 0.9126
+- acc_eval_partial 1,epoch 690,accuracy 0.7016
+- epoch 690, time, 27.58s, loss 1.0051
+- acc_eval_partial 1,epoch 700,accuracy 0.7043
+- epoch 700, time, 27.72s, loss 0.9564
+- acc_eval_partial 1,epoch 710,accuracy 0.7184
+- epoch 710, time, 27.94s, loss 0.9256
+- acc_eval_partial 1,epoch 720,accuracy 0.7033
+- epoch 720, time, 27.72s, loss 1.0073
+- acc_eval_partial 1,epoch 730,accuracy 0.7257
+- epoch 730, time, 27.63s, loss 0.9022
+- acc_eval_partial 1,epoch 740,accuracy 0.6956
+- epoch 740, time, 27.36s, loss 0.9938
+- acc_eval_partial 1,epoch 750,accuracy 0.7257
+- epoch 750, time, 27.79s, loss 0.9383
+- acc_eval_partial 1,epoch 760,accuracy 0.7207
+- epoch 760, time, 27.61s, loss 0.9301
+- acc_eval_partial 1,epoch 770,accuracy 0.7039
+- epoch 770, time, 27.71s, loss 0.9899
+- acc_eval_partial 1,epoch 780,accuracy 0.7234
+- epoch 780, time, 27.56s, loss 0.8895
+- acc_eval_partial 1,epoch 790,accuracy 0.6962
+- epoch 790, time, 27.48s, loss 0.9886
+- acc_eval_partial 1,epoch 800,accuracy 0.7242
+- epoch 800, time, 26.69s, loss 0.9249
+- acc_eval_partial 1,epoch 810,accuracy 0.7123
+- epoch 810, time, 26.75s, loss 0.9232
+- acc_eval_partial 1,epoch 820,accuracy 0.6943
+- epoch 820, time, 26.59s, loss 0.9895
+- acc_eval_partial 1,epoch 830,accuracy 0.7226
+- epoch 830, time, 26.60s, loss 0.8841
+- acc_eval_partial 1,epoch 840,accuracy 0.6953
+- epoch 840, time, 26.76s, loss 0.9933
+- acc_eval_partial 1,epoch 850,accuracy 0.7234
+- epoch 850, time, 26.58s, loss 0.9126
+- acc_eval_partial 1,epoch 860,accuracy 0.7134
+- epoch 860, time, 26.52s, loss 0.9247
+- acc_eval_partial 1,epoch 870,accuracy 0.7009
+- epoch 870, time, 26.51s, loss 0.9712
+- acc_eval_partial 1,epoch 880,accuracy 0.7310
+- epoch 880, time, 26.49s, loss 0.8761
+- acc_eval_partial 1,epoch 890,accuracy 0.6903
+- epoch 890, time, 25.99s, loss 0.9903
+- acc_eval_partial 1,epoch 900,accuracy 0.7233
+- epoch 900, time, 26.58s, loss 0.8930
+- acc_eval_partial 1,epoch 910,accuracy 0.7043
+- epoch 910, time, 26.60s, loss 0.9240
+- acc_eval_partial 1,epoch 920,accuracy 0.7010
+- epoch 920, time, 26.05s, loss 0.9564
+- acc_eval_partial 1,epoch 930,accuracy 0.7327
+- epoch 930, time, 26.06s, loss 0.8721
+- acc_eval_partial 1,epoch 940,accuracy 0.7039
+- epoch 940, time, 26.66s, loss 0.9848
+- acc_eval_partial 1,epoch 950,accuracy 0.7273
+- epoch 950, time, 26.78s, loss 0.8848
+- acc_eval_partial 1,epoch 960,accuracy 0.7082
+- epoch 960, time, 26.58s, loss 0.9324
+- acc_eval_partial 1,epoch 970,accuracy 0.7112
+- epoch 970, time, 26.56s, loss 0.9419
+- acc_eval_partial 1,epoch 980,accuracy 0.7322
+- epoch 980, time, 26.49s, loss 0.8705
+- acc_eval_partial 1,epoch 990,accuracy 0.7095
+- epoch 990, time, 26.63s, loss 0.9730
+- acc_eval_partial 1,epoch 1000,accuracy 0.7252
+- epoch 1000, time, 26.53s, loss 0.8764
+- acc_eval_partial 1,epoch 1010,accuracy 0.7001
+- epoch 1010, time, 26.58s, loss 0.9381
+- acc_eval_partial 1,epoch 1020,accuracy 0.7145
+- epoch 1020, time, 26.59s, loss 0.9331
+- acc_eval_partial 1,epoch 1030,accuracy 0.7245
+- epoch 1030, time, 26.60s, loss 0.8647
+- acc_eval_partial 1,epoch 1040,accuracy 0.7027
+- epoch 1040, time, 26.70s, loss 0.9777
+- acc_eval_partial 1,epoch 1050,accuracy 0.7264
+- epoch 1050, time, 26.52s, loss 0.8679
+- acc_eval_partial 1,epoch 1060,accuracy 0.7076
+- epoch 1060, time, 26.64s, loss 0.9455
+- acc_eval_partial 1,epoch 1070,accuracy 0.7118
+- epoch 1070, time, 26.50s, loss 0.9270
+- acc_eval_partial 1,epoch 1080,accuracy 0.7248
+- epoch 1080, time, 26.47s, loss 0.8638
+- acc_eval_partial 1,epoch 1090,accuracy 0.7068
+- epoch 1090, time, 26.76s, loss 0.9741
+- acc_eval_partial 1,epoch 1100,accuracy 0.7300
+- epoch 1100, time, 26.56s, loss 0.8576
+- acc_eval_partial 1,epoch 1110,accuracy 0.7117
+- epoch 1110, time, 26.85s, loss 0.9427
+- acc_eval_partial 1,epoch 1120,accuracy 0.7163
+- epoch 1120, time, 26.76s, loss 0.9127
+- acc_eval_partial 1,epoch 1130,accuracy 0.7286
+- epoch 1130, time, 26.90s, loss 0.8664
+- acc_eval_partial 1,epoch 1140,accuracy 0.7062
+- epoch 1140, time, 26.95s, loss 0.9545
+- acc_eval_partial 1,epoch 1150,accuracy 0.7295
+- epoch 1150, time, 26.86s, loss 0.8509
+- acc_eval_partial 1,epoch 1160,accuracy 0.7057
+- epoch 1160, time, 26.87s, loss 0.9464
+- acc_eval_partial 1,epoch 1170,accuracy 0.7259
+- epoch 1170, time, 26.82s, loss 0.8965
+- acc_eval_partial 1,epoch 1180,accuracy 0.7268
+- epoch 1180, time, 26.89s, loss 0.8671
+- acc_eval_partial 1,epoch 1190,accuracy 0.7122
+- epoch 1190, time, 26.83s, loss 0.9582
+- acc_eval_partial 1,epoch 1200,accuracy 0.7300
+- epoch 1200, time, 26.84s, loss 0.8469
