@@ -21,7 +21,7 @@ conda activate SurRF
 
 3. 数据集准备
 
-​		本实验中使用cifar-10数据集，调用`torchvision.dataset.CIFAR10`，自动下载，无需自己准备
+   本实验中使用cifar-10数据集，调用`torchvision.dataset.CIFAR10`，自动下载，无需自己准备
 
 4. 设置参数
 
