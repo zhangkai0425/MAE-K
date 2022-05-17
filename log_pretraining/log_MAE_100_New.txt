@@ -1,0 +1,425 @@
+Files already downloaded and verified
+data already prepared!
+model already prepared!
+optimizer already prepared!
+training MAE-1
+training at epoch: 1
+training at epoch: 2
+MAE-1 model saved!
+training MAE-2
+pre-model already loaded!
+training at epoch: 3
+training at epoch: 4
+training MAE-3
+pre-model already loaded!
+training at epoch: 5
+training at epoch: 6
+training MAE-4
+pre-model already loaded!
+training at epoch: 7
+training at epoch: 8
+training MAE-5
+pre-model already loaded!
+training at epoch: 9
+training at epoch: 10
+- epoch  10, time, 33.26s, loss 1.5714
+training MAE-6
+pre-model already loaded!
+training at epoch: 11
+training at epoch: 12
+training MAE-7
+pre-model already loaded!
+training at epoch: 13
+training at epoch: 14
+training MAE-8
+pre-model already loaded!
+training at epoch: 15
+training at epoch: 16
+training MAE-9
+pre-model already loaded!
+training at epoch: 17
+training at epoch: 18
+training MAE-10
+pre-model already loaded!
+training at epoch: 19
+training at epoch: 20
+- epoch  20, time, 33.48s, loss 1.3761
+training MAE-11
+pre-model already loaded!
+training at epoch: 21
+training at epoch: 22
+training MAE-12
+pre-model already loaded!
+training at epoch: 23
+training at epoch: 24
+training MAE-13
+pre-model already loaded!
+training at epoch: 25
+training at epoch: 26
+training MAE-14
+pre-model already loaded!
+training at epoch: 27
+training at epoch: 28
+training MAE-15
+pre-model already loaded!
+training at epoch: 29
+training at epoch: 30
+- epoch  30, time, 33.87s, loss 1.2541
+training MAE-16
+pre-model already loaded!
+training at epoch: 31
+training at epoch: 32
+training MAE-17
+pre-model already loaded!
+training at epoch: 33
+training at epoch: 34
+training MAE-18
+pre-model already loaded!
+training at epoch: 35
+training at epoch: 36
+training MAE-19
+pre-model already loaded!
+training at epoch: 37
+training at epoch: 38
+training MAE-20
+pre-model already loaded!
+training at epoch: 39
+training at epoch: 40
+- epoch  40, time, 33.90s, loss 1.1990
+training MAE-21
+pre-model already loaded!
+training at epoch: 41
+training at epoch: 42
+training MAE-22
+pre-model already loaded!
+training at epoch: 43
+training at epoch: 44
+training MAE-23
+pre-model already loaded!
+training at epoch: 45
+training at epoch: 46
+training MAE-24
+pre-model already loaded!
+training at epoch: 47
+training at epoch: 48
+training MAE-25
+pre-model already loaded!
+training at epoch: 49
+training at epoch: 50
+- epoch  50, time, 33.80s, loss 1.1432
+training MAE-26
+pre-model already loaded!
+training at epoch: 51
+training at epoch: 52
+training MAE-27
+pre-model already loaded!
+training at epoch: 53
+training at epoch: 54
+training MAE-28
+pre-model already loaded!
+training at epoch: 55
+training at epoch: 56
+training MAE-29
+pre-model already loaded!
+training at epoch: 57
+training at epoch: 58
+training MAE-30
+pre-model already loaded!
+training at epoch: 59
+training at epoch: 60
+- epoch  60, time, 33.90s, loss 1.0901
+training MAE-31
+pre-model already loaded!
+training at epoch: 61
+training at epoch: 62
+training MAE-32
+pre-model already loaded!
+training at epoch: 63
+training at epoch: 64
+training MAE-33
+pre-model already loaded!
+training at epoch: 65
+training at epoch: 66
+training MAE-34
+pre-model already loaded!
+training at epoch: 67
+training at epoch: 68
+training MAE-35
+pre-model already loaded!
+training at epoch: 69
+training at epoch: 70
+- epoch  70, time, 33.87s, loss 1.0446
+training MAE-36
+pre-model already loaded!
+training at epoch: 71
+training at epoch: 72
+training MAE-37
+pre-model already loaded!
+training at epoch: 73
+training at epoch: 74
+training MAE-38
+pre-model already loaded!
+training at epoch: 75
+training at epoch: 76
+training MAE-39
+pre-model already loaded!
+training at epoch: 77
+training at epoch: 78
+training MAE-40
+pre-model already loaded!
+training at epoch: 79
+training at epoch: 80
+- epoch  80, time, 33.78s, loss 0.9937
+training MAE-41
+pre-model already loaded!
+training at epoch: 81
+training at epoch: 82
+training MAE-42
+pre-model already loaded!
+training at epoch: 83
+training at epoch: 84
+training MAE-43
+pre-model already loaded!
+training at epoch: 85
+training at epoch: 86
+training MAE-44
+pre-model already loaded!
+training at epoch: 87
+training at epoch: 88
+training MAE-45
+pre-model already loaded!
+training at epoch: 89
+training at epoch: 90
+- epoch  90, time, 33.89s, loss 0.9565
+training MAE-46
+pre-model already loaded!
+training at epoch: 91
+training at epoch: 92
+training MAE-47
+pre-model already loaded!
+training at epoch: 93
+training at epoch: 94
+training MAE-48
+pre-model already loaded!
+training at epoch: 95
+training at epoch: 96
+training MAE-49
+pre-model already loaded!
+training at epoch: 97
+training at epoch: 98
+training MAE-50
+pre-model already loaded!
+training at epoch: 99
+training at epoch: 100
+- epoch 100, time, 33.79s, loss 0.9144
+training MAE-51
+pre-model already loaded!
+training at epoch: 101
+training at epoch: 102
+training MAE-52
+pre-model already loaded!
+training at epoch: 103
+training at epoch: 104
+training MAE-53
+pre-model already loaded!
+training at epoch: 105
+training at epoch: 106
+training MAE-54
+pre-model already loaded!
+training at epoch: 107
+training at epoch: 108
+training MAE-55
+pre-model already loaded!
+training at epoch: 109
+training at epoch: 110
+- epoch 110, time, 33.84s, loss 0.8843
+training MAE-56
+pre-model already loaded!
+training at epoch: 111
+training at epoch: 112
+training MAE-57
+pre-model already loaded!
+training at epoch: 113
+training at epoch: 114
+training MAE-58
+pre-model already loaded!
+training at epoch: 115
+training at epoch: 116
+training MAE-59
+pre-model already loaded!
+training at epoch: 117
+training at epoch: 118
+training MAE-60
+pre-model already loaded!
+training at epoch: 119
+training at epoch: 120
+- epoch 120, time, 33.86s, loss 0.8569
+training MAE-61
+pre-model already loaded!
+training at epoch: 121
+training at epoch: 122
+training MAE-62
+pre-model already loaded!
+training at epoch: 123
+training at epoch: 124
+training MAE-63
+pre-model already loaded!
+training at epoch: 125
+training at epoch: 126
+training MAE-64
+pre-model already loaded!
+training at epoch: 127
+training at epoch: 128
+training MAE-65
+pre-model already loaded!
+training at epoch: 129
+training at epoch: 130
+- epoch 130, time, 33.81s, loss 0.8302
+training MAE-66
+pre-model already loaded!
+training at epoch: 131
+training at epoch: 132
+training MAE-67
+pre-model already loaded!
+training at epoch: 133
+training at epoch: 134
+training MAE-68
+pre-model already loaded!
+training at epoch: 135
+training at epoch: 136
+training MAE-69
+pre-model already loaded!
+training at epoch: 137
+training at epoch: 138
+training MAE-70
+pre-model already loaded!
+training at epoch: 139
+training at epoch: 140
+- epoch 140, time, 33.77s, loss 0.8093
+training MAE-71
+pre-model already loaded!
+training at epoch: 141
+training at epoch: 142
+training MAE-72
+pre-model already loaded!
+training at epoch: 143
+training at epoch: 144
+training MAE-73
+pre-model already loaded!
+training at epoch: 145
+training at epoch: 146
+training MAE-74
+pre-model already loaded!
+training at epoch: 147
+training at epoch: 148
+training MAE-75
+pre-model already loaded!
+training at epoch: 149
+training at epoch: 150
+- epoch 150, time, 33.72s, loss 0.7883
+training MAE-76
+pre-model already loaded!
+training at epoch: 151
+training at epoch: 152
+training MAE-77
+pre-model already loaded!
+training at epoch: 153
+training at epoch: 154
+training MAE-78
+pre-model already loaded!
+training at epoch: 155
+training at epoch: 156
+training MAE-79
+pre-model already loaded!
+training at epoch: 157
+training at epoch: 158
+training MAE-80
+pre-model already loaded!
+training at epoch: 159
+training at epoch: 160
+- epoch 160, time, 33.74s, loss 0.7734
+training MAE-81
+pre-model already loaded!
+training at epoch: 161
+training at epoch: 162
+training MAE-82
+pre-model already loaded!
+training at epoch: 163
+training at epoch: 164
+training MAE-83
+pre-model already loaded!
+training at epoch: 165
+training at epoch: 166
+training MAE-84
+pre-model already loaded!
+training at epoch: 167
+training at epoch: 168
+training MAE-85
+pre-model already loaded!
+training at epoch: 169
+training at epoch: 170
+- epoch 170, time, 34.09s, loss 0.7567
+training MAE-86
+pre-model already loaded!
+training at epoch: 171
+training at epoch: 172
+training MAE-87
+pre-model already loaded!
+training at epoch: 173
+training at epoch: 174
+training MAE-88
+pre-model already loaded!
+training at epoch: 175
+training at epoch: 176
+training MAE-89
+pre-model already loaded!
+training at epoch: 177
+training at epoch: 178
+training MAE-90
+pre-model already loaded!
+training at epoch: 179
+training at epoch: 180
+- epoch 180, time, 33.99s, loss 0.7447
+training MAE-91
+pre-model already loaded!
+training at epoch: 181
+training at epoch: 182
+training MAE-92
+pre-model already loaded!
+training at epoch: 183
+training at epoch: 184
+training MAE-93
+pre-model already loaded!
+training at epoch: 185
+training at epoch: 186
+training MAE-94
+pre-model already loaded!
+training at epoch: 187
+training at epoch: 188
+training MAE-95
+pre-model already loaded!
+training at epoch: 189
+training at epoch: 190
+- epoch 190, time, 33.90s, loss 0.7319
+training MAE-96
+pre-model already loaded!
+training at epoch: 191
+training at epoch: 192
+training MAE-97
+pre-model already loaded!
+training at epoch: 193
+training at epoch: 194
+training MAE-98
+pre-model already loaded!
+training at epoch: 195
+training at epoch: 196
+training MAE-99
+pre-model already loaded!
+training at epoch: 197
+training at epoch: 198
+training MAE-100
+pre-model already loaded!
+training at epoch: 199
+training at epoch: 200
+- epoch 200, time, 33.52s, loss 0.7210
+Training MAE-100 Completed

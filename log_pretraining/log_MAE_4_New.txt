@@ -1,0 +1,233 @@
+Files already downloaded and verified
+data already prepared!
+model already prepared!
+optimizer already prepared!
+training MAE-1
+training at epoch: 1
+training at epoch: 2
+training at epoch: 3
+training at epoch: 4
+training at epoch: 5
+training at epoch: 6
+training at epoch: 7
+training at epoch: 8
+training at epoch: 9
+training at epoch: 10
+- epoch  10, time, 31.54s, loss 1.9422
+training at epoch: 11
+training at epoch: 12
+training at epoch: 13
+training at epoch: 14
+training at epoch: 15
+training at epoch: 16
+training at epoch: 17
+training at epoch: 18
+training at epoch: 19
+training at epoch: 20
+- epoch  20, time, 31.62s, loss 1.7658
+training at epoch: 21
+training at epoch: 22
+training at epoch: 23
+training at epoch: 24
+training at epoch: 25
+training at epoch: 26
+training at epoch: 27
+training at epoch: 28
+training at epoch: 29
+training at epoch: 30
+- epoch  30, time, 31.69s, loss 1.6546
+training at epoch: 31
+training at epoch: 32
+training at epoch: 33
+training at epoch: 34
+training at epoch: 35
+training at epoch: 36
+training at epoch: 37
+training at epoch: 38
+training at epoch: 39
+training at epoch: 40
+- epoch  40, time, 31.50s, loss 1.5946
+training at epoch: 41
+training at epoch: 42
+training at epoch: 43
+training at epoch: 44
+training at epoch: 45
+training at epoch: 46
+training at epoch: 47
+training at epoch: 48
+training at epoch: 49
+training at epoch: 50
+- epoch  50, time, 31.42s, loss 1.5272
+MAE-1 model saved!
+training MAE-2
+pre-model already loaded!
+training at epoch: 51
+training at epoch: 52
+training at epoch: 53
+training at epoch: 54
+training at epoch: 55
+training at epoch: 56
+training at epoch: 57
+training at epoch: 58
+training at epoch: 59
+training at epoch: 60
+- epoch  60, time, 33.66s, loss 1.2441
+training at epoch: 61
+training at epoch: 62
+training at epoch: 63
+training at epoch: 64
+training at epoch: 65
+training at epoch: 66
+training at epoch: 67
+training at epoch: 68
+training at epoch: 69
+training at epoch: 70
+- epoch  70, time, 33.68s, loss 1.1877
+training at epoch: 71
+training at epoch: 72
+training at epoch: 73
+training at epoch: 74
+training at epoch: 75
+training at epoch: 76
+training at epoch: 77
+training at epoch: 78
+training at epoch: 79
+training at epoch: 80
+- epoch  80, time, 33.85s, loss 1.1268
+training at epoch: 81
+training at epoch: 82
+training at epoch: 83
+training at epoch: 84
+training at epoch: 85
+training at epoch: 86
+training at epoch: 87
+training at epoch: 88
+training at epoch: 89
+training at epoch: 90
+- epoch  90, time, 33.80s, loss 1.0808
+training at epoch: 91
+training at epoch: 92
+training at epoch: 93
+training at epoch: 94
+training at epoch: 95
+training at epoch: 96
+training at epoch: 97
+training at epoch: 98
+training at epoch: 99
+training at epoch: 100
+- epoch 100, time, 33.74s, loss 1.0257
+training MAE-3
+pre-model already loaded!
+training at epoch: 101
+training at epoch: 102
+training at epoch: 103
+training at epoch: 104
+training at epoch: 105
+training at epoch: 106
+training at epoch: 107
+training at epoch: 108
+training at epoch: 109
+training at epoch: 110
+- epoch 110, time, 33.63s, loss 0.9826
+training at epoch: 111
+training at epoch: 112
+training at epoch: 113
+training at epoch: 114
+training at epoch: 115
+training at epoch: 116
+training at epoch: 117
+training at epoch: 118
+training at epoch: 119
+training at epoch: 120
+- epoch 120, time, 33.54s, loss 0.9405
+training at epoch: 121
+training at epoch: 122
+training at epoch: 123
+training at epoch: 124
+training at epoch: 125
+training at epoch: 126
+training at epoch: 127
+training at epoch: 128
+training at epoch: 129
+training at epoch: 130
+- epoch 130, time, 33.72s, loss 0.8999
+training at epoch: 131
+training at epoch: 132
+training at epoch: 133
+training at epoch: 134
+training at epoch: 135
+training at epoch: 136
+training at epoch: 137
+training at epoch: 138
+training at epoch: 139
+training at epoch: 140
+- epoch 140, time, 33.67s, loss 0.8689
+training at epoch: 141
+training at epoch: 142
+training at epoch: 143
+training at epoch: 144
+training at epoch: 145
+training at epoch: 146
+training at epoch: 147
+training at epoch: 148
+training at epoch: 149
+training at epoch: 150
+- epoch 150, time, 33.71s, loss 0.8379
+training MAE-4
+pre-model already loaded!
+training at epoch: 151
+training at epoch: 152
+training at epoch: 153
+training at epoch: 154
+training at epoch: 155
+training at epoch: 156
+training at epoch: 157
+training at epoch: 158
+training at epoch: 159
+training at epoch: 160
+- epoch 160, time, 33.67s, loss 0.8135
+training at epoch: 161
+training at epoch: 162
+training at epoch: 163
+training at epoch: 164
+training at epoch: 165
+training at epoch: 166
+training at epoch: 167
+training at epoch: 168
+training at epoch: 169
+training at epoch: 170
+- epoch 170, time, 33.73s, loss 0.7896
+training at epoch: 171
+training at epoch: 172
+training at epoch: 173
+training at epoch: 174
+training at epoch: 175
+training at epoch: 176
+training at epoch: 177
+training at epoch: 178
+training at epoch: 179
+training at epoch: 180
+- epoch 180, time, 33.66s, loss 0.7726
+training at epoch: 181
+training at epoch: 182
+training at epoch: 183
+training at epoch: 184
+training at epoch: 185
+training at epoch: 186
+training at epoch: 187
+training at epoch: 188
+training at epoch: 189
+training at epoch: 190
+- epoch 190, time, 33.55s, loss 0.7554
+training at epoch: 191
+training at epoch: 192
+training at epoch: 193
+training at epoch: 194
+training at epoch: 195
+training at epoch: 196
+training at epoch: 197
+training at epoch: 198
+training at epoch: 199
+training at epoch: 200
+- epoch 200, time, 33.73s, loss 0.7408
+Training MAE-4 Completed
