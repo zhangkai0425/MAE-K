@@ -14,7 +14,7 @@ from deit import DistilledVisionTransformer
 from util import *
 
 # for re-produce
-set_seed(0)
+set_seed(3)
 
 
 def build_model(args):
@@ -50,13 +50,27 @@ def build_model(args):
                    n_class=args.n_class,
                    masking_ratio=0,
                    device=args.device).to(args.device)
-
-    # restore weights
-    state_dict_encoder = enet.encoder.state_dict()
-    state_dict_loaded = torch.load(args.ckpt)['model']
-    for k in state_dict_encoder.keys():
-        state_dict_encoder[k] = state_dict_loaded['encoder.' + k]
-    enet.encoder.load_state_dict(state_dict_encoder)
+    if args.n_partial == 0:
+        # linear evaluation(probing):restore the pretrained MAE encoder weight
+        # restore weights
+        state_dict_encoder = enet.encoder.state_dict()
+        state_dict_loaded = torch.load(args.ckpt)['model']
+        for k in state_dict_encoder.keys():
+            state_dict_encoder[k] = state_dict_loaded['encoder.' + k]
+        enet.encoder.load_state_dict(state_dict_encoder)
+    elif args.n_partial == 1:
+        # finetune:restore the pretrained MAE encoder weight
+        # restore weights
+        state_dict_encoder = enet.encoder.state_dict()
+        state_dict_loaded = torch.load(args.ckpt)['model']
+        for k in state_dict_encoder.keys():
+            state_dict_encoder[k] = state_dict_loaded['encoder.' + k]
+        enet.encoder.load_state_dict(state_dict_encoder)
+        # ckpt_linear = os.path.join(args.ckpt_folder, '{}_Linear Evaluation.ckpt'.format(args.trail))
+        # # assert 1==0
+        # if not os.path.exists(ckpt_linear):
+        #     raise IOError('Linear Evaluation ckpt not exists.Please do the Linear Evaluation first!')
+        # enet = load_ckpt(enet,ckpt_linear)
     return enet
 
 
@@ -263,7 +277,7 @@ def default_args(data_name, trail=0, ckpt_file='last.ckpt'):
     else:
     # finetune
         args.batch_size = 512
-        args.epochs = 1000
+        args.epochs = 1200
         args.base_lr = 2e-2
         args.lr = args.base_lr * args.batch_size / 256
         args.weight_decay = 5e-2
@@ -298,5 +312,5 @@ def default_args(data_name, trail=0, ckpt_file='last.ckpt'):
 if __name__ == '__main__':
 
     data_name = 'cifar10'
-    trail = 'MAE-200-new'
-    train(default_args(data_name,trail=trail,ckpt_file='MAE-200.ckpt'))
+    trail = 'MAE-50'
+    train(default_args(data_name,trail=trail,ckpt_file='MAE-50.ckpt'))
