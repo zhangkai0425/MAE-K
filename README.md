@@ -7,7 +7,7 @@
 1. 克隆代码到本地仓库
 
 ```bash
-git clone https://github.com/liujiyuan13/MAE-code.git MAE-code
+git clone https://github.com/zhangkai0425/MAE-K.git
 ```
 
 2. 配置相应环境   `cuda:11.0|NVIDIA GeForce RTX 3090` 
