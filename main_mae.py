@@ -309,9 +309,9 @@ def default_args(data_name, trail='MAE'):
 if __name__ == '__main__':
 
     data_name = 'cifar10'
-    trail = 'MAE-200-new'
+    trail = 'MAE'
     # mode 'MAE-K' or 'MAE'
-    mode = 'MAE-K'
+    mode = 'MAE'
     if mode == 'MAE':
         train(default_args(data_name,trail=trail))
     if mode == 'MAE-K':
