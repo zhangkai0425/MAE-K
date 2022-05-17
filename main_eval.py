@@ -14,7 +14,7 @@ from deit import DistilledVisionTransformer
 from util import *
 
 # for re-produce
-set_seed(3)
+set_seed(2022)
 
 
 def build_model(args):
