@@ -312,5 +312,5 @@ def default_args(data_name, trail=0, ckpt_file='last.ckpt'):
 if __name__ == '__main__':
 
     data_name = 'cifar10'
-    trail = 'MAE-50'
-    train(default_args(data_name,trail=trail,ckpt_file='MAE-50.ckpt'))
+    trail = 'MAE'
+    train(default_args(data_name,trail=trail,ckpt_file='MAE.ckpt'))
