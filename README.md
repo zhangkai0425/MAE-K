@@ -169,6 +169,8 @@ deit.py             # definition of DeiT
 
 #### 可视化结果
 
+   可以用Tensorboard，或使用如下脚本：
+
 1. 可视化`pretrain`阶段结果：
 
 ```bash
