@@ -1,3 +1,3 @@
 ## log file
 
-记录Tensoorboard文件
+记录Tensorboard文件
